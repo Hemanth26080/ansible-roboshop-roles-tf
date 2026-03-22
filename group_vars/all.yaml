@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.phemanth.in
-REDIS_HOST: redis.phemanth.in
-CATALOGUE_HOST: catalogue.phemanth.in
-CART_HOST: cart.phemanth.in
-USER_HOST: user.phemanth.in
-RABBITMQ_HOST: rabbitmq.phemanth.in
-MYSQL_HOST: mysql.phemanth.in
-SHIPPING_HOST: shipping.phemanth.in
-PAYMENT_HOST: payment.phemanth.in
+MONGODB_HOST: mongodb-{{ env }}.phemanth.in
+REDIS_HOST: redis-{{ env }}.phemanth.in
+CATALOGUE_HOST: catalogue-{{ env }}.phemanth.in
+CART_HOST: cart-{{ env }}.phemanth.in
+USER_HOST: user-{{ env }}.phemanth.in
+RABBITMQ_HOST: rabbitmq-{{ env }}.phemanth.in
+MYSQL_HOST: mysql-{{ env }}.phemanth.in
+SHIPPING_HOST: shipping-{{ env }}.phemanth.in
+PAYMENT_HOST: payment-{{ env }}.phemanth.in
